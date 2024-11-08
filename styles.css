@@ -1,0 +1,304 @@
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  max-width: 26em;
+  max-height: 100vh;
+}
+
+.background {
+  width: 600px;
+  height: 450px;
+  border-bottom-right-radius: 100%;
+  border-bottom-left-radius: 100%;
+  left: -110px;
+  top: -75px;
+  position: absolute;
+  padding: 10px;
+}
+.logo_bri {
+  position: absolute;
+  margin-top: 55px;
+  margin-left: 94px;
+  height: 480px;
+  width: 400px;
+}
+
+.fast {
+  position: absolute;
+  margin-left: 50px;
+  width: 20em;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 31em;
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  color: #05abf8;
+}
+
+.fast_mode {
+  position: absolute;
+  display: flex;
+  margin-top: 33em;
+  margin-left: 20px;
+  column-gap: 20px;
+  width: 349px;
+  align-items: center;
+}
+
+.logo_catatan {
+  background-color: rgb(231, 243, 250);
+  border: none;
+  display: inline-flex;
+  margin-right: 15px;
+  height: 60px;
+  width: 60px;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo_brizzi {
+  background-color: rgb(231, 243, 250);
+  border: none;
+  display: inline-flex;
+  margin-right: 15px;
+  height: 60px;
+  width: 60px;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo_Ewallet {
+  background-color: rgb(231, 243, 250);
+  border: none;
+  display: inline-flex;
+  margin-right: 15px;
+  height: 60px;
+  width: 60px;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo_pulsaData {
+  background-color: rgb(231, 243, 250);
+  border: none;
+  display: inline-flex;
+  margin-right: 15px;
+  height: 60px;
+  width: 60px;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.catatan {
+  position: absolute;
+  width: 65px;
+  margin-left: 5px;
+  background: none;
+}
+
+.brizzi {
+  position: absolute;
+  width: 65px;
+  margin-bottom: 10px;
+  margin-left: px;
+  background: none;
+}
+
+.e_wallet {
+  position: absolute;
+  width: 65px;
+  margin-bottom: px;
+  margin-left: px;
+  background: none;
+}
+
+.pulsa_data {
+  position: absolute;
+  width: 65px;
+  margin-bottom: px;
+  margin-left: px;
+  background: none;
+}
+
+.text_logo {
+  width: 100px;
+  margin-top: 100px;
+  font-family: "Roboto" sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+#text_logo {
+  margin-bottom: 10px;
+}
+
+.container_login {
+  position: absolute;
+  width: 19em;
+  height: 3em;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  margin-left: 10px;
+}
+
+.btn_login {
+  width: 100%;
+  border: solid;
+  background-color: #05abf8;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.container_info {
+  border: solid;
+  height: 10px;
+}
+
+.btn_info {
+  height: 10px;
+  width: 10px;
+  size: 1;
+}
+
+.container_fingerprint {
+  position: absolute;
+  bottom: 0;
+  margin-left: 325px;
+  width: 3em;
+  height: 3em;
+  background-color: #05abf8;
+  border-radius: 10px;
+}
+.btn_fingerprint {
+  padding-bottom: 10px;
+  background-color: transparent;
+  color: white;
+  border: none;
+  margin-top: 10px;
+  margin-left: 7px;
+}
+
+/* start login interface */
+
+.loginInterface {
+  visibility: hidden;
+  bottom: 0;
+  position: absolute;
+  width: 24.5em;
+  height: 17.5em;
+  background-color: white;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.loginInterface.active {
+  visibility: visible;
+}
+
+.textLogin {
+  font-family: "Roboto", sans-serif;
+  font-weight: 1000;
+  font-style: normal;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.textCancel {
+  position: absolute;
+  top: 0;
+  margin-top: 15px;
+  margin-left: 13px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+.textCancel,
+a {
+  text-decoration: none;
+  color: #05abf8;
+}
+
+.inputInterface {
+  margin-top: 10%;
+  margin-left: 20px;
+  width: 20em;
+  height: 120px;
+  color: darkgrey;
+}
+
+#username,
+#password {
+  width: 22em;
+  height: 40px;
+  column-gap: 100px;
+  border-radius: 10px;
+  border-style: groove;
+  border: solid darkgray;
+}
+
+#username {
+  padding-left: 50px;
+}
+
+#password {
+  padding-left: 50px;
+  margin-top: 10px;
+}
+
+#iconPerson {
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+#iconLock {
+  position: absolute;
+  margin-top: 25px;
+  margin-left: 15px;
+}
+
+.btnLogin {
+  position: absolute;
+  display: flex;
+
+  width: 22em;
+  height: 40px;
+  margin-top: 5px;
+  margin-left: 20px;
+}
+
+.btnLogin button {
+  border: none;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  background-color: #05abf8;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  top: 10px;
+  right: 26px;
+  position: absolute;
+}
+
+.lupaPassword {
+  text-align: center;
+  margin-top: 55px;
+}
+.lupaPassword a {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  text-decoration: underline;
+}

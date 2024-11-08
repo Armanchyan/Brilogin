@@ -1,0 +1,61 @@
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  max-width: 100vh;
+  max-height: 100vh;
+}
+
+nav {
+  background-color: #05abf8;
+  top: -5px;
+  height: 60px;
+  color: white;
+}
+.nameNav {
+  font-family: "Maven Pro", sans-serif;
+}
+
+.userLogin {
+  position: absolute;
+  left: 40px;
+  top: 10px;
+}
+
+.logoNav {
+  position: absolute;
+  top: 10px;
+}
+
+#iconBell {
+  position: absolute;
+  left: 280px;
+  top: 20px;
+}
+
+.serviceUser {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  height: 40px;
+  position: absolute;
+  width: 90px;
+  right: 10px;
+  top: 10px;
+  font-family: "Maven Pro", sans-serif;
+  background-color: #018dce;
+}
+.textSer {
+  position: relative;
+  top: 5px;
+  left: 30px;
+  font-size: small;
+}
+
+#userSer {
+  position: absolute;
+  right: 70px;
+  top: 10px;
+}
